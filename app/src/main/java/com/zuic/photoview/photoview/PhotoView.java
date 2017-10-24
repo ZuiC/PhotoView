@@ -139,6 +139,8 @@ public class PhotoView extends android.support.v7.widget.AppCompatImageView{
             return;
         }
 
+
+
         final float deltaX, deltaY;
         if (rect.width() > getImageViewWidth(this)){
             if (scrollX >= 0) {
